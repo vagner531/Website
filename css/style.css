@@ -117,7 +117,8 @@ nav ul li a:hover{
 }
 .portfolio-btn:hover, 
 .recent-btn:hover,
-.client-box a:hover{
+.client-box a:hover,
+.contact-input a:hover{
   background-color: #23cdaf;
   transition: all ease 0.2s;
 }
@@ -320,4 +321,47 @@ nav ul li a:hover{
   transform: translateY(-10px);
   box-shadow: 5px 10px 30px rgba(0,0,0,0.1);
   transition: all ease 0.2s;
+}
+
+/* contact */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+#contact img{
+  height: 300px;
+}
+.contact-input {
+  width: 400px;
+  height: 50px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+}
+.contact-input input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #242425;
+}
+.contact-input a {
+  width: 200px;
+  height: 40px;
+  background-color: #1db096;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto 10px;
+  border-radius: 20px;
+  font-weight: 500;
 }
